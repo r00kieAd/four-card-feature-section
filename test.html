@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .colored-strip {
+            position: relative;
+            border-top: 3px solid #3498db; /* Set the color of the top border */
+            padding-top: 10px; /* Adjust the padding based on your design */
+        }
+
+        .colored-strip::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px; /* Adjust the height of the colored strip */
+            background-color: #e74c3c; /* Set the color of the colored strip */
+        }
+
+        /* Other styling for the content inside the div */
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="colored-strip">
+        <div class="content">
+            <!-- Your content goes here -->
+            <h2>Your Content</h2>
+            <p>This is a colored strip just below the top border of the div.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -94,6 +94,7 @@ img {
 }
 
 lord-icon {
+    display: block;
     position: relative;
     float: right;
 }

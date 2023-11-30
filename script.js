@@ -19,12 +19,7 @@ $("div.karma").hover(function() {
 $(".supervisor").hover(function() {
     $('.supervisor').toggleClass("neon-d");
     $('.supervisor div img').css('display', 'none');
-    $('.supervisor').html('<lord-icon
-    src="https://cdn.lordicon.com/ybaojceo.json"
-    trigger="hover"
-    style="width:64px;height:64px">
-</lord-icon>');
-});
+    $('.supervisor lord-icon').css('display', 'block');
 } catch (err) {
     console.log(err.message);
 }

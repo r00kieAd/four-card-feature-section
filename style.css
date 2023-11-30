@@ -29,11 +29,6 @@
     flex-direction: row;
 }
 
-img {
-    position: relative;
-    float: right;
-}
-
 .supervisor,
 .calculator {
     position: relative;
@@ -92,11 +87,14 @@ img {
 }
 
 img {
+    position: relative;
+    float: right;
     width: 64px;
     height: auto;
 }
 
 lord-icon {
+    float: right;
     display: none;
 }
 

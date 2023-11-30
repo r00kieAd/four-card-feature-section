@@ -9,6 +9,7 @@ try {
         $('.team-builder > .icon > lord-icon').attr('trigger', 'loop');
         $('.team-builder > .icon > lord-icon').attr('delay', '1');
     }, function(){
+        $('.team-builder').toggleClass("neon-a");
         $('.team-builder > .icon > lord-icon').attr('trigger', 'click');
     });
     
@@ -17,6 +18,7 @@ try {
         $('.calculator > .icon > lord-icon').attr('trigger', 'loop');
         $('.calculator > .icon > lord-icon').attr('delay', '1');
     }, function(){
+        $('.calculator').toggleClass("neon-b");
         $('.calculator > .icon > lord-icon').attr('trigger', 'click');
     });
     
@@ -25,6 +27,7 @@ try {
         $('.karma > .icon > lord-icon').attr('trigger', 'loop');
         $('.karma > .icon > lord-icon').attr('delay', '1');
     }, function(){
+        $('.karma').toggleClass("neon-c");
         $('.karma > .icon > lord-icon').attr('trigger', 'click');
     });
     
@@ -33,6 +36,7 @@ try {
         $('.supervisor > .icon > lord-icon').attr('trigger', 'loop');
         $('.supervisor > .icon > lord-icon').attr('delay', '1');
     }, function() {
+        $('.supervisor').toggleClass("neon-d");
         $('.supervisor > .icon > lord-icon').attr('trigger', 'click');
     });
 } catch (err) {

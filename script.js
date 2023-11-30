@@ -18,11 +18,11 @@ $("div.karma").hover(function() {
 $(".supervisor").hover(function() {
     $('.supervisor').toggleClass("neon-d");
     $('.supervisor div img').css('display', 'none');
-    $('.supervisor').html("<lord-icon
+    $('.supervisor').html('<lord-icon
     src="https://cdn.lordicon.com/ybaojceo.json"
     trigger="hover"
     style="width:64px;height:64px">
-</lord-icon>");
+</lord-icon>');
 });
 
 // if (screen.width <= 1000) {

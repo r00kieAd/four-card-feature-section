@@ -96,6 +96,8 @@ img {
 .icon {
     position: relative;
     float: right;
+    width: 80px !important;
+    height: 80px !important;
 }
 
 .lord-icon {

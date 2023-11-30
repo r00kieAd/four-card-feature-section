@@ -18,8 +18,7 @@ try {
     
     $(".supervisor").hover(function() {
         $('.supervisor').toggleClass("neon-d");
-        $('.supervisor div img').css('display', 'none');
-        $('.supervisor lord-icon').css('display', 'block');
+        // $('.supervisor lord-icon').css('display', 'block');
     });
 } catch (err) {
     console.log(err.message);

@@ -93,10 +93,13 @@ img {
     height: auto;
 }
 
+.icon {
+    float: right;
+}
+
 lord-icon {
     display: block;
     position: relative;
-    float: right;
 }
 
 @media screen and (max-width: 1200px) {

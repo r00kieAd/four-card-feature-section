@@ -7,25 +7,33 @@ try {
     $(".team-builder").hover(function() {
         $('.team-builder').toggleClass("neon-a");
         $('.team-builder > .icon > lord-icon').attr('trigger', 'loop');
-        $('.team-builder > .icon > lord-icon').attr('delay', '10');
+        $('.team-builder > .icon > lord-icon').attr('delay', '1');
+    }, function(){
+        $('.team-builder > .icon > lord-icon').attr('trigger', 'click');
     });
     
     $("div.calculator").hover(function() {
         $('.calculator').toggleClass("neon-b");
         $('.calculator > .icon > lord-icon').attr('trigger', 'loop');
-        $('.calculator > .icon > lord-icon').attr('delay', '10');
+        $('.calculator > .icon > lord-icon').attr('delay', '1');
+    }, function(){
+        $('.calculator > .icon > lord-icon').attr('trigger', 'click');
     });
     
     $("div.karma").hover(function() {
         $('.karma').toggleClass("neon-c");
         $('.karma > .icon > lord-icon').attr('trigger', 'loop');
-        $('.karma > .icon > lord-icon').attr('delay', '10');
+        $('.karma > .icon > lord-icon').attr('delay', '1');
+    }, function(){
+        $('.karma > .icon > lord-icon').attr('trigger', 'click');
     });
     
     $(".supervisor").hover(function() {
         $('.supervisor').toggleClass("neon-d");
         $('.supervisor > .icon > lord-icon').attr('trigger', 'loop');
-        $('.supervisor > .icon > lord-icon').attr('delay', '10');
+        $('.supervisor > .icon > lord-icon').attr('delay', '1');
+    }, function() {
+        $('.supervisor > .icon > lord-icon').attr('trigger', 'click');
     });
 } catch (err) {
     console.log(err.message);

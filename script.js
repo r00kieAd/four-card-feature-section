@@ -7,6 +7,7 @@ try {
     $(".team-builder").hover(function() {
         $('.team-builder').toggleClass("neon-a");
         $('.team-builder > .icon > lord-icon').attr('trigger', 'loop');
+        $('.team-builder > .icon > lord-icon').attr('delay', '100');
     });
     
     $("div.calculator").hover(function() {

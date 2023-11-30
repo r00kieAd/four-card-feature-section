@@ -34,9 +34,9 @@ This <a href="https://r00kiead.github.io/four-card-feature-section/">project</a>
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Has different shadow color effects on hovering each card;\
-:heavy_check_mark: Has different layouts for different screen sizes;\
-:heavy_check_mark: yet to code;
+:heavy_check_mark: Has different shadow colors on hovering respective card;\
+:heavy_check_mark: Has animated icons on card upon website entry and on hovering the respective cards;\
+:heavy_check_mark: Has different layouts for different screen sizes;
 
 ## :rocket: Technologies ##
 

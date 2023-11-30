@@ -7,20 +7,25 @@ try {
     $(".team-builder").hover(function() {
         $('.team-builder').toggleClass("neon-a");
         $('.team-builder > .icon > lord-icon').attr('trigger', 'loop');
-        $('.team-builder > .icon > lord-icon').attr('delay', '100');
+        $('.team-builder > .icon > lord-icon').attr('delay', '10');
     });
     
     $("div.calculator").hover(function() {
         $('.calculator').toggleClass("neon-b");
+        $('.calculator > .icon > lord-icon').attr('trigger', 'loop');
+        $('.calculator > .icon > lord-icon').attr('delay', '10');
     });
     
     $("div.karma").hover(function() {
         $('.karma').toggleClass("neon-c");
+        $('.karma > .icon > lord-icon').attr('trigger', 'loop');
+        $('.karma > .icon > lord-icon').attr('delay', '10');
     });
     
     $(".supervisor").hover(function() {
         $('.supervisor').toggleClass("neon-d");
-        // $('.supervisor lord-icon').css('display', 'block');
+        $('.supervisor > .icon > lord-icon').attr('trigger', 'loop');
+        $('.supervisor > .icon > lord-icon').attr('delay', '10');
     });
 } catch (err) {
     console.log(err.message);
